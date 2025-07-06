@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Абстрактная картина в таблице</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            height: 600px;
+        }
+        td {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Первый ряд -->
+        <tr>
+            <td colspan="2" rowspan="2" style="background-color: #f5d742;"></td>
+            <td colspan="2" style="background-color: #e83871;"></td>
+            <td colspan="2" rowspan="3" style="background-color: #3a2c1b;"></td>
+        </tr>
+        <!-- Второй ряд -->
+        <tr>
+            <td style="background-color: #8a5c2e;"></td>
+            <td rowspan="2" style="background-color: #d4a76a;"></td>
+        </tr>
+        <!-- Третий ряд -->
+        <tr>
+            <td colspan="2" style="background-color: #1f5c3a;"></td>
+            <td style="background-color: #723a2c;"></td>
+        </tr>
+        <!-- Четвертый ряд -->
+        <tr>
+            <td style="background-color: #4a2c5c;"></td>
+            <td colspan="2" style="background-color: #2c5c4a;"></td>
+            <td colspan="2" style="background-color: #5c2c4a;"></td>
+            <td style="background-color: #a76ad4;"></td>
+        </tr>
+        <!-- Пятый ряд -->
+        <tr>
+            <td colspan="3" rowspan="2" style="background-color: #2c4a5c;"></td>
+            <td style="background-color: #d4a76a;"></td>
+            <td colspan="2" rowspan="2" style="background-color: #8a2c5c;"></td>
+        </tr>
+        <!-- Шестой ряд -->
+        <tr>
+            <td style="background-color: #5c8a2c;"></td>
+        </tr>
+    </table>
+</body>
+</html>
