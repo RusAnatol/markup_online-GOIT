@@ -1,0 +1,82 @@
+p{
+    font-size: 30px;
+}
+
+h1{
+    color: orange;
+    text-align: right;
+    font-size: 60px;
+}
+
+p::first-letter{
+    color: red;
+}
+
+em{
+    background-color: green;
+}
+
+#allotment{
+    font-size: 30px;
+}
+
+#allotment h2{
+    color: orange;
+}
+
+#allotment ul > li{
+    font-weight: bold;
+}
+
+#allotment .fruits-list{
+    color: gray;
+}
+
+#allotment .vegetables-list{
+    color: red;
+}
+
+#warehouse {
+    font-size: 30px;
+}
+
+#warehouse h2{
+    color: blue;
+}
+
+#warehouse ul>li{
+    font-weight: bold;
+}
+
+#warehouse .fruits-list{
+    color: green;
+}
+
+#warehouse .vegetables-list{
+    color: red;
+}
+
+.students-table{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.students-table tr>td{
+   text-align: center; 
+}
+
+/*tbody tr td::first-chailr{
+    color: yellow;
+}*/
+/*Не могу покрасить в желтый цвет имена*/
+
+ tbody tr td:nth-child(2),
+ tbody tr td:nth-child(3),
+ tbody tr td:nth-child(4){
+    background-color: #4CAF50; /* Зеленый */
+  }
+
+  tbody tr td:first-child{
+    color: orange;
+    text-align: left;
+  }
