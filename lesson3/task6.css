@@ -1,0 +1,25 @@
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+
+label[for="red"]{
+    color: red;
+}
+label[for="green"]{
+    color: green;
+}
+label[for="blue"]{
+    color: blue;
+}
+
+#red:not(:checked) ~ .red,
+#green:not(:checked) ~ .green,
+#blue:not(:checked) ~ .blue {
+    display: none;
+}

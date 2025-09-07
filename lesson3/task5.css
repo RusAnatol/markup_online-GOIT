@@ -1,0 +1,14 @@
+tr:nth-child(2),
+tr:nth-child(4),
+tr:nth-child(6)
+{
+    background-color: #ddebf7;
+
+
+
+td:nth-child(3),
+td:nth-child(5),
+td:nth-child(7),
+td:nth-child(9) {
+     background-color: #f2f2de; 
+}
